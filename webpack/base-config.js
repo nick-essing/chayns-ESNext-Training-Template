@@ -16,7 +16,7 @@ export default (dev = false) => ({
         extensions: ['.js']
     },
     output: {
-        path: `//tappqa/Training/2019/${SHORTHAND}/${PROJECT_NAME}`,
+        path: `//tappqa/Training/2020/${SHORTHAND}/${PROJECT_NAME}`,
         filename: '[name].js'
     },
     module: {
