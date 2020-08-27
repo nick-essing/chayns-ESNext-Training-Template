@@ -17,7 +17,7 @@ const handleUserIsLoggedOut = ($introElement, $loginBtn) => {
         login(() => handleUserIsLoggedIn($introElement, $loginBtn));
     });
 };
-
+// init
 const init = async () => {
     try {
         await chayns.ready;
